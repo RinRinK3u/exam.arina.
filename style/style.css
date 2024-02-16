@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.first-screen{
+    max-width: 1280px;
+    max-height: 890px;
+    background-image: url(../image/start-screen-gradient-background.png);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+header{
+    padding: 60px 0 0 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.logo{
+    width: 184px;
+    height: 60px;
+}
+
+.menu-item{
+    margin: 16px 18px;
+}
+
+.menu-link{
+    font-family: "Roboto", sans-serif;
+    color: #CDCDCD;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header{
+    margin: 223px 40px 0;
+    width: 310px;
+    height: 114px;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.descr{
+    width: 460px;
+    height: 72px;
+    margin: 0px 40px;
+}
+
+.descr-main{
+    color: #CDCDCD;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.button{
+    margin: 42px 40px ;
+    padding: 16px 52px;
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+}
+
+.button-text{
+    color: #292929;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 6%;
+    font-weight: 400;
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    margin: 42px 60px;
+}
+
+.About{
+    max-width: 1280px;
+    max-height: 588px;
+}
+
+.container{
+    align-items: center;
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.image2{
+    margin: 80px 175px;
+    /* margin-bottom: 100px; */
+}
+
+.text-about{
+    width: 430px;
+    height: 380px;
+    /* margin: 80px 120px; */
+    margin-top: 94px;
+}
+
+.title-about{
+    width: 360px;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 6%;
+    color: #545454;
+}
+
+.haupttext-about{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+    margin: 20px 0px;
+}
+
+.pets{
+    max-width: 1280px;
+    max-height: 877px;
+    background: #F6F6F6;
+    padding: 80px 145px;
+}
+
+.hearer-pets{
+    margin-left: 300px;
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 6%;
+    color: #545454;
+}
+
+.card{
+    width: 270px;
+    height: 435px;
+    margin-top: 60px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 6%;
+    color: #545454;
+    margin: 20px;
+}
+
+.button-more{
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    padding: 15px 49px;
+}
+
+.button-middle{
+    background: #F1CDB3;
+    width: 261px;
+    height: 52px;
+    border-radius: 100px;
+    padding: 16px 53px;
+    margin: 60px 365px;
+}
+
+.help{
+    max-width: 1280px;
+    max-height: 584px;
+    padding: 53px 40px;
+}
+
+.hearer-help{
+    margin-left: 390px;
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 6%;
+    color: #545454;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.help-pics{
+    /* display: flex; */
+    /* align-content: center space-between; */
+    margin-top: 60px;
+    margin-left: 87px;
+    margin-right: 87px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pics{
+    margin: 40px;
+}
+
+.donation{
+    max-width: 1280px;
+    max-height: 462px;
+    background: #F6F6F6;
+    padding: 80px 183px;
+}
+
+.hearer-don{
+    /* margin-left: 300px; */
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 6%;
+    color: #545454;
+}
+
+.extra-lorem{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 20px 0px;
+    color: #B2B2B2;
+}
+
+.text-donation{
+    width: 380px;
+    margin-left: 30px;
+}
+
+.hz{
+    display: flex;
+}
+
+.footer{
+    max-width: 1280px;
+    max-height: 350px;
+    background-image: url(../image/footer-gradient-background.png);
+    padding: 40px 40px;
+}
+
+.suggestions{
+    width: 305px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.qas{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.hz2{
+    display: flex;
+    justify-content: space-between;
+}
